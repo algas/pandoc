@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it --entrypoint "/sbin/pandoc" -v "$(pwd)":/tmp -w /tmp mypandoc "$@"
